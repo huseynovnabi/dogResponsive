@@ -1,0 +1,345 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+ul > li {
+  display: flex;
+}
+
+#carefor {
+  background-color: #f8f9fa;
+}
+#carefor .textbox {
+  padding: 0 100px;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  color: #a8a8a8;
+  font-size: 18px;
+}
+#carefor .textbox h1, #carefor .textbox h4 {
+  line-height: 1.2;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  #carefor .textbox {
+    padding: 0;
+    text-align: center;
+  }
+  #carefor .textbox h1 {
+    font-size: 40px;
+  }
+  #carefor .textbox h4 {
+    margin: 20px 0 40px 0;
+  }
+}
+#welcome .textbox {
+  margin: 20px;
+}
+#welcome .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin: 0 0 30px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h3, #welcome .textbox h6 {
+  font-size: 18px;
+  color: #868686;
+  margin: 20px 0 50px 0;
+  line-height: 1.2;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: #a2c0be;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    text-align: left;
+  }
+  #welcome .textbox h3 {
+    margin-bottom: 30px;
+  }
+  #welcome .textbox h6 {
+    margin-bottom: 30px;
+  }
+}
+#aboutus .textbox {
+  margin-bottom: 25px;
+}
+#aboutus .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+  margin: 20px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h3 {
+  font-size: 22px;
+  margin: 30px 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  color: #746f6f;
+  margin: 0 0 30px;
+  line-height: 1.4;
+}
+#aboutus .textbox h3, #aboutus .textbox li {
+  color: #9c9a9a;
+}
+#aboutus .textbox p, #aboutus .textbox li {
+  font-size: 18px;
+}
+#aboutus .textbox ul > li {
+  margin: 15px 0;
+}
+#aboutus .textbox ul > li > .icon {
+  margin: 0;
+  font-size: 20px;
+}
+#aboutus .textbox h4 {
+  margin: 0 0 0 15px;
+}
+
+@media screen and (max-width: 767px) {
+  #aboutus .textbox {
+    text-align: center;
+  }
+}
+#ourtrainers {
+  background-color: #a2c0be;
+}
+#ourtrainers .textbox .icon {
+  color: white;
+  font-size: 30px;
+}
+#ourtrainers .textbox h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin: 25px 0 15px;
+}
+#ourtrainers .textbox h3 {
+  margin: 0 0 70px;
+}
+#ourtrainers .textbox h2 {
+  font-size: 20px;
+  margin: 40px 0 20px;
+}
+#ourtrainers .textbox h3, #ourtrainers .textbox h4 {
+  line-height: 1.5;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .icon > i {
+  background-color: white;
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin: 15px 5px 60px 0;
+  font-size: 11px;
+}
+
+#pricing .textbox .icon {
+  color: #a2c0be;
+}
+#pricing .textbox .icon, #pricing .textbox h1 {
+  font-size: 35px;
+}
+#pricing .textbox h1 {
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+#pricing .textbox h5 {
+  margin: 0 0 40px;
+  color: #9c9a9a;
+  line-height: 1.5;
+}
+#pricing .box, #pricing .btn {
+  color: white;
+  background-color: #a2c0be;
+  text-align: center;
+  padding: 60px;
+}
+#pricing .box h2, #pricing .btn h2 {
+  font-size: 25px;
+}
+#pricing .box h3, #pricing .btn h3 {
+  font-size: 40px;
+  margin: 30px 0;
+}
+#pricing .box span, #pricing .btn span {
+  font-size: 18px;
+}
+#pricing .box ul > li, #pricing .btn ul > li {
+  margin: 18px;
+}
+#pricing .box ul > li > .icon, #pricing .btn ul > li > .icon {
+  margin: 0 10px 0 0;
+}
+#pricing .box .btn, #pricing .btn .btn {
+  background-color: #6c757d;
+  border-radius: 30px;
+  padding: 8px 30px;
+  margin: 25px;
+}
+#pricing .premium-box {
+  background-color: #343a40;
+}
+#pricing .premium-box .btn {
+  background-color: #a2c0be;
+}
+
+@media screen and (max-width: 992px) {
+  #pricing .box {
+    padding: 30px 0;
+  }
+  #pricing .box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #pricing .box h3 {
+    font-size: 30px;
+  }
+}
+#questions .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+}
+#questions .textbox h1 {
+  font-weight: 700;
+  margin: 20px 0 15px;
+}
+#questions .textbox h1, #questions .textbox h2 {
+  font-size: 25px;
+}
+#questions .textbox h3 {
+  color: #616161;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+#questions .textbox .box > .icon, #questions .textbox ul > li > .icon {
+  font-size: 20px;
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #9c9a9a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 0;
+}
+#questions .textbox h2 {
+  margin: 0 0 20px;
+}
+#questions .textbox p {
+  color: #616161;
+  line-height: 1.4;
+}
+#questions .textbox ul {
+  padding: 30px 0;
+  font-size: 20px;
+}
+#questions .textbox ul li h3 {
+  margin-bottom: 20px;
+}
+#questions .textbox ul > li > .icon {
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  background-color: white;
+  color: #9c9a9a;
+  margin: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+  #questions .textbox {
+    text-align: center;
+  }
+  #questions .textbox .icon {
+    padding: 15px;
+  }
+}
+#dogger .textbox {
+  margin: 0 20px;
+}
+#dogger .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+}
+#dogger .textbox h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0 10px;
+}
+#dogger .textbox h5 {
+  margin: 0 0 40px;
+}
+#dogger .textbox h5, #dogger .textbox p {
+  color: #616161;
+  line-height: 1.4;
+}
+#dogger .textbox h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+#dogger .textbox h3, #dogger .textbox h4 {
+  color: rgba(151, 144, 144, 0.7058823529);
+  margin: 20px 0;
+}
+
+#services .textbox .icon {
+  color: #a2c0be;
+  font-size: 30px;
+}
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px 0 10px;
+}
+#services .textbox h3, #services .textbox p {
+  color: #616161;
+  margin: 0 0 50px;
+  line-height: 1.4;
+}
+#services .textbox h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#services .box > .icon {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  #services {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
